@@ -1,0 +1,125 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+      }
+      body {
+        background: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #0b3d91;
+        color: #fff;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .hero {
+        padding: 60px 30px;
+        text-align: center;
+        background: #eaf1f8;
+      }
+      .hero img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+      .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+      }
+      .hero p {
+        font-size: 1.1rem;
+        color: #555;
+      }
+      .section {
+        padding: 60px 30px;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .section h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #0b3d91;
+      }
+      button {
+        padding: 12px 20px;
+        margin: 5px;
+        border: none;
+        background: #0b3d91;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 500;
+      }
+      button:hover {
+        background: #062c6f;
+      }
+      .counter {
+        font-size: 3rem;
+        margin: 15px 0;
+        text-align: center;
+      }
+      input[type="text"] {
+        padding: 10px;
+        width: 60%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 5px;
+      }
+      .dynamic-content p {
+        margin: 10px 0;
+        padding: 10px;
+        background: #eef3f9;
+        border-left: 5px solid #0b3d91;
+        border-radius: 5px;
+      }
+      .media-section {
+        padding: 60px 30px;
+        background: #eef3f9;
+        text-align: center;
+      }
+      .media-section h3 {
+        color: #0b3d91;
+        margin-bottom: 20px;
+        font-size: 2rem;
+      }
+      .media-section img {
+        max-width: 300px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      .media-section iframe {
+        width: 80%;
+        max-width: 640px;
+        height: 360px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #0b3d91;
+        color: white;
+        margin-top: 40px;
+      }
